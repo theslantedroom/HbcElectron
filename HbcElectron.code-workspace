@@ -1,0 +1,34 @@
+{
+	"folders": [
+		{
+			"path": "."
+		}
+  ],
+  "settings": {
+  "restoreTerminals.terminals": [
+    {
+      "profile": "Git Bash",
+      "splitTerminals": [
+            {
+              "name": " Git Bash",
+              "commands": []
+            },
+            {
+              "name": "server",
+              "commands": [
+                "yarn start"
+              ],
+ 		         "shouldRunCommands": false
+            },
+            {
+              "name": "typescript",
+              "commands": [
+              ""
+              ],
+ 		          "shouldRunCommands": false 
+            }
+          ]
+    }
+  ]
+  }
+}
